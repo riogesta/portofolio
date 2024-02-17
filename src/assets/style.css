@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .text-title {
+        @apply text-[#202020];
+    }
+
+    .text-body {
+        @apply text-[#313131];
+    }
+}
