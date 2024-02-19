@@ -1,12 +1,18 @@
 <script setup>
+import { IconUser } from "@tabler/icons-vue";
+
 defineProps({
     about: String,
 });
 </script>
 
 <template>
-    <section class="relative flex shrink-0 overflow-hidden flex-col gap-y-3">
-        <h2 class="text-xl font-bold text-title">About</h2>
-        <p class="text-pretty text-body">{{ about }}</p>
-    </section>
+    <div class="mx-2">
+        <h2 class="font-bold text-pretty divider divider-start">
+            <div class="badge badge-neutral badge-lg py-4 -ml-2 items-center">
+                <i class="mr-2"><IconUser /></i>About
+            </div>
+        </h2>
+        <p>{{ about }}</p>
+    </div>
 </template>
