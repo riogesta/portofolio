@@ -9,7 +9,9 @@ defineProps({
 <template>
     <section class="mx-2">
         <h2 class="font-bold text-pretty divider divider-start">
-            <div class="badge badge-neutral badge-lg py-4 -ml-2 items-center">
+            <div
+                class="badge dark:badge-neutral badge-ghost badge-lg py-4 -ml-2 items-center"
+            >
                 <i class="mr-2"><IconUser /></i>About
             </div>
         </h2>

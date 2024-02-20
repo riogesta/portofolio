@@ -10,7 +10,7 @@ const projects = inject("projects");
     <div
         v-for="project in projects"
         :key="project.id"
-        class="card bg-neutral shadow-md flex flex-col overflow-hidden"
+        class="card card-compact dark:bg-neutral bg-base-200 shadow-md flex flex-col overflow-hidden"
     >
         <div class="card-body">
             <div class="flex flex-col space-y-1.5">

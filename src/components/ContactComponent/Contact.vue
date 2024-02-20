@@ -7,7 +7,7 @@ const props = defineProps({
 </script>
 
 <template>
-    <div class="card bg-neutral shadow-md">
+    <div class="card card-compact dark:bg-neutral bg-base-200 shadow-md">
         <div class="card-body">
             <div class="flex items-center justify-between">
                 <div class="flex-1">

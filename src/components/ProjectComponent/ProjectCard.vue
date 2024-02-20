@@ -6,7 +6,9 @@ import Projects from "./Projects.vue";
 <template>
     <section class="mx-2">
         <h2 class="font-bold text-pretty divider divider-start">
-            <div class="badge badge-neutral badge-lg py-4 -ml-2 items-center">
+            <div
+                class="badge dark:badge-neutral badge-ghost badge-lg py-4 -ml-2 items-center"
+            >
                 <i class="mr-2"><IconFolders /></i>Projects
             </div>
         </h2>

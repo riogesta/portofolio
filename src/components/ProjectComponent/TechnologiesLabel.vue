@@ -4,7 +4,7 @@ const props = defineProps(["tech"]);
 
 <template>
     <div
-        class="badge badge-primary inline-flex items-center text-nowrap cursor-default"
+        class="badge dark:bg-base-100 bg-base-100 inline-flex items-center text-nowrap cursor-default"
     >
         {{ tech }}
     </div>
