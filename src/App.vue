@@ -98,7 +98,7 @@ provide("projects", projects);
 
 <template>
     <main
-        class="container relative mx-auto overflow-auto scroll-my-12 print:p-12 md:p-16 md:m-5 md:mx-auto sm:p-5"
+        class="container relative mx-auto overflow-auto scroll-my-12 print:p-12 md:p-16 md:m-5 md:mx-auto sm:p-5 p-5"
     >
         <section class="max-w-3xl mx-auto space-y-8">
             <Contact :contact="contact" />
