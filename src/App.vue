@@ -73,7 +73,7 @@ const projects = ref([
         project_name: "KNN Flask",
         repo: "https://github.com/riogesta/KNN-Flask",
         deskripsi:
-            "Klasifikasi data paru-paru menggunakan metode data mining KNN.",
+            "Klasifikasi data gagal ginjal menggunakan metode data mining KNN.",
         technologies: ["Python", "Flask", "Scikit Learn"],
     },
     {
